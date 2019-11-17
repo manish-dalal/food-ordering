@@ -30,7 +30,9 @@ const userReducer = (state = initialState, action) => {
         itemname: action.payload.itemname,
         price: action.payload.price
       });
-      if (cartItems[index].quantity === 1) {
+      if (index === -1) {
+      } else if (cartItems[index].quantity === 1) {
+        cartItems[index].quantity--;
         cartItems.splice(index, 1);
       } else {
         cartItems[index].quantity--;
