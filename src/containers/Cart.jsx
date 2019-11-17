@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import { Button } from "reactstrap";
 
@@ -6,10 +6,10 @@ import getImage from "utils/getImage";
 import AddButton from "components/AddButton";
 
 const Cart = props => {
-  const { dispatch, cartItems } = props;
+  const { cartItems } = props;
 
   let amount = 0;
-  cartItems.map(item => {
+  cartItems.forEach(item => {
     const { price = 0, quantity = 0 } = item;
     amount = amount + quantity * price;
   });

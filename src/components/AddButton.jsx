@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { memo } from "react";
 import { Button, ButtonGroup } from "reactstrap";
 import { connect } from "react-redux";
 import findIndex from "lodash/findIndex";
@@ -13,8 +13,6 @@ function AddButton(props) {
   const { item, dispatch, cartItems } = props;
   const { itemname = "", price = 0, quantity = 0 } = item;
   console.log("quantity", quantity);
-
-  useEffect(() => {}, [itemname]);
 
   const add = () => {
     dispatch(addItem(item));
@@ -82,4 +80,7 @@ const mapStateToProps = state => {
     cartItems: state.userReducer.cartItems
   };
 };
-export default connect(mapStateToProps)(AddButton);
+function areEqual(prevProps, nextProps) {
+  return prevProps.cartItems.length === nextProps.cartItems.length;
+}
+export default connect(mapStateToProps)(memo(AddButton, areEqual));

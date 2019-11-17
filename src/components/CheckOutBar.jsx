@@ -8,7 +8,7 @@ function CheckOutBar(props) {
   if (cartItems.length) {
     let names = "",
       amount = 0;
-    cartItems.map(item => {
+    cartItems.forEach(item => {
       const { itemname = "", price = 0, quantity = 0 } = item;
       amount = amount + quantity * price;
       names = names + `${quantity} X ${itemname}, `;

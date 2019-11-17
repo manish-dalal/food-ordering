@@ -4,7 +4,7 @@ import AddButton from "./AddButton";
 
 export default function HomeCard(props) {
   const { item } = props;
-  const { itemname = "", price = 0, quantity = 0 } = item;
+  const { itemname = "", price = 0 } = item;
   return (
     <div className="card" key={props.index}>
       <div className="card_wraper">
