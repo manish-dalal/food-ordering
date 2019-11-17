@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/food-ordering/static/css/main.a6475b7a.chunk.css",
+    "main.js": "/food-ordering/static/js/main.4ace8598.chunk.js",
+    "main.js.map": "/food-ordering/static/js/main.4ace8598.chunk.js.map",
+    "runtime-main.js": "/food-ordering/static/js/runtime-main.3f96a2b1.js",
+    "runtime-main.js.map": "/food-ordering/static/js/runtime-main.3f96a2b1.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/food-ordering/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.a75e93e9.chunk.js": "/food-ordering/static/js/2.a75e93e9.chunk.js",
+    "static/js/2.a75e93e9.chunk.js.map": "/food-ordering/static/js/2.a75e93e9.chunk.js.map",
+    "index.html": "/food-ordering/index.html",
+    "precache-manifest.59bc4bbb66115f280da7f2e6a8a6abce.js": "/food-ordering/precache-manifest.59bc4bbb66115f280da7f2e6a8a6abce.js",
+    "service-worker.js": "/food-ordering/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/food-ordering/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.a6475b7a.chunk.css.map": "/food-ordering/static/css/main.a6475b7a.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f96a2b1.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.a75e93e9.chunk.js",
+    "static/css/main.a6475b7a.chunk.css",
+    "static/js/main.4ace8598.chunk.js"
+  ]
+}
