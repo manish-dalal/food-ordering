@@ -186,7 +186,8 @@ body {
 
 .card {
   position: relative;
-  min-width: 23%;
+  width: 23%;
+  min-width: 160px;
   min-height: 100px;
   padding-bottom: 11.5%;
   margin: 6px 0.8%;

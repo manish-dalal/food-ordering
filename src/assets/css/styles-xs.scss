@@ -8,7 +8,20 @@
 }
 
 // small mobile
-@media (max-width: 340px) {
+@media (max-width: 430px) {
+  .app-container {
+    width: 95%;
+  }
+  .Home_header .title {
+    margin: 0;
+  }
+  .Home_body_container {
+    justify-content: space-between;
+  }
+  .Header_location {
+    width: unset;
+    min-width: 100px;
+  }
 }
 
 // ipad targeting
