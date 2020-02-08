@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# food-ordering | SMARTQ REACTJS HIRING CHALLENGE
+Develop a pseudo Front End Application which would let the users order food online. Your app should display food items and price, the item should be disabled if items are not available at the current time slot. And also provide Add to cart feature.
 
-## Available Scripts
+## How to run the project online
+Open the online demo [here](https://manish-dalal.github.io/food-ordering)
 
-In the project directory, you can run:
+## Features
 
-### `yarn start`
+- Use of Web API to fetch food details.
+- Utilise Response Parameters: \[ itemname, availabletime, price]\
+- Implement functionality to list items in a web page according to the time.
+- Visually interactive responsive design listing all the items.
+- A feature to Search by name.
+- Implement Sort feature to sort result through ‘price’ in ascending and descending order.
+- Implement a Cart in your web app and allow users to add and remove items. Maintain session across states.
+- Submit Screenshot, Source code Instructions.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## GUIDE
 
-### `yarn test`
+- JSON Data: http://hck.re/food1
+- Ideal Frontend Stack: ReactJS, Redux, Router
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to run the project in Development Mode
+The project uses [Node.js >= 6.x](https://nodejs.org/en/) and the [Create-React-App starter code](https://github.com/facebookincubator/create-react-app).
 
-### `yarn build`
+After Node is installed in your system, follow the below steps.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Navigate to the directory where you want to store the app.
+2. Clone the repo `git clone https://github.com/manish-dalal/food-ordering.git`
+3. Now install all modules listed as dependencies in `package.json` by running the command `npm install`
+4. Launch the app with this command `npm start`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+A new browser window open automatically displaying the app.  If it doesn't, navigate to [http://localhost:3000/](http://localhost:3000/) in your browser
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+***NOTE:*** *The service workers for this app will only cache the site when it is in production mode.*
 
-### `yarn eject`
+## How to run the project in Production Mode
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Build the production ready optimised code. `npm run build`
+2. Deploy it to `gh-pages` branch by `npm run deploy`
+3. Check the online demo [here](https://manish-dalal.github.io/food-ordering)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
+Project Home Page
+<img src="ScreenShot/1.png"></img>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Searching by name
+<img src="ScreenShot/2.png"></img>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Add to cart
+<img src="ScreenShot/4.png"></img>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Cart detail
+<img src="ScreenShot/5.png"></img>
