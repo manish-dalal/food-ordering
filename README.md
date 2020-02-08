@@ -43,13 +43,13 @@ A new browser window open automatically displaying the app.  If it doesn't, navi
 
 ## Screenshots
 Project Home Page
-<img src="ScreenShot/1.png"></img>
+<img src="Screenshots/1.png"></img>
 
 Searching by name
-<img src="ScreenShot/2.png"></img>
+<img src="Screenshots/2.png"></img>
 
 Add to cart
-<img src="ScreenShot/4.png"></img>
+<img src="Screenshots/4.png"></img>
 
 Cart detail
-<img src="ScreenShot/5.png"></img>
+<img src="Screenshots/5.png"></img>
